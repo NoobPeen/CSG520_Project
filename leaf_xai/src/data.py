@@ -1,7 +1,11 @@
 """
 Dataset discovery and the single train/val/test split shared by all approaches.
 
-Run once:
+This module deliberately depends only on pandas / scikit-learn (no torch), so
+Approach 2 can run on a machine without a deep-learning stack installed.
+The torch-specific Dataset and DataLoader code lives in torch_data.py.
+
+Run once, before anything else:
 
     python src/data.py --build
 

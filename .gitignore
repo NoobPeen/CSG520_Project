@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+leaf_xai/outputs/
+leaf_xai/data/raw/*
+!leaf_xai/data/raw/.gitkeep
+*.pt
+*.joblib
